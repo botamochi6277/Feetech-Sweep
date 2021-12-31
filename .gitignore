@@ -6,12 +6,12 @@
 
 
 # SCS library
-lib/INST.h
-lib/SCS.h
-lib/SCSCL.h
-lib/SCSerial.h
-lib/SCServo.h
-lib/SMS_STS.h
+include/INST.h
+include/SCS.h
+include/SCSCL.h
+include/SCSerial.h
+include/SCServo.h
+include/SMS_STS.h
 
 src/SCS.cpp
 src/SCSCL.cpp
