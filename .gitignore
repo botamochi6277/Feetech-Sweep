@@ -17,3 +17,5 @@ src/SCS.cpp
 src/SCSCL.cpp
 src/SCSerial.cpp
 src/SMS_STS.cpp
+
+.env
