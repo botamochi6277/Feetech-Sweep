@@ -1,5 +1,7 @@
 # Feetech Sweep
 
+![badge](https://github.com/botamochi6277/Feetech-Sweep/actions/workflows/ci-platformio.yml/badge.svg)
+
 Test to drive feetech ttl servo motors with sweeping.
 M5Atom Lite controls [STS3215](https://akizukidenshi.com/catalog/g/gM-16312/) with [FE-URT-1](https://akizukidenshi.com/catalog/g/gM-16295/), interface board.
 
