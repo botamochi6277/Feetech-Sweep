@@ -17,16 +17,16 @@
 
 #ifdef ARDUINO_M5Stack_ATOM
 // https://shinshu-makers.net/shinshu_makers/2021/05/28/%E3%80%90m5%E3%80%91m5atom-lite%E3%81%AEuart%E3%81%A7%E3%83%94%E3%83%B3%E6%8E%A2%E3%81%97%EF%BC%9C%EF%BC%92%EF%BC%91%EF%BC%8C%EF%BC%92%EF%BC%95%E3%81%AF%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84%EF%BC%9E/
-#define RXD 32
-#define TXD 26
+#define RXD 26
+#define TXD 32
 #elif defined(ARDUINO_M5Stack_Core_ESP32)
 // CORE1
 #define RXD RX2  // 16
 #define TXD TX2  // 17
 #elif defined(ARDUINO_M5STACK_Core2)
-// CORE2??
-#define RXD RX2
-#define TXD TX2
+// CORE2
+#define RXD RX2  // 13
+#define TXD TX2  // 14
 #elif defined(ARDUINO_M5Stack_StampS3)
 #define RXD 44
 #define TXD 43

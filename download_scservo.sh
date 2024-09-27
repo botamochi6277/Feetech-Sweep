@@ -1,4 +1,4 @@
-TARGET="https://akizukidenshi.com/download/ds/feetech/SCServo.zip"
+TARGET="https://akizukidenshi.com/goodsaffix/SCServo.zip"
 echo "start downloading SCServo.zip from ${TARGET}"
 curl -OL ${TARGET}
 unzip SCServo.zip

@@ -7,38 +7,56 @@ These control [STS3215](https://akizukidenshi.com/catalog/g/gM-16312/) with [FE-
 
 ## Usage
 
-1-Clone this repository:
+1. Clone this repository:
 
 ```zsh
 git clone  https://github.com/botamochi6277/Feetech-Sweep.git
 ```
 
-2-Install SCServo library
+2. Install SCServo library
 
 ```zsh
 ./download_scservo.sh
 ```
 
-3-Build and Upload with PlatformIO
+3. Build and Upload with PlatformIO
 
 ## Connection
 
 FE-URT-1 would have wrong silk annotations about RXD and TXD.
 
+### M5Stack Core1
+
+|  Core1   |  --   |  FE-URT-1  |
+| :------: | :---: | :--------: |
+|    5V    |  --   |     5V     |
+|   GND    |  --   |    GND     |
+| D16 (RX) |  --   | RXD (Silk) |
+| D17 (TX) |  --   | TXD (Silk) |
+
+### M5Stack Core2
+
+|  Core1   |  --   |  FE-URT-1  |
+| :------: | :---: | :--------: |
+|    5V    |  --   |     5V     |
+|   GND    |  --   |    GND     |
+| D13 (RX) |  --   | RXD (Silk) |
+| D14 (TX) |  --   | TXD (Silk) |
+
 ### M5Atom
 
-| M5Atom  | --  |  FE-URT-1  |
-| :-----: | :-: | :--------: |
-|   5V    | --  |     5V     |
-|   GND   | --  |    GND     |
-| 21 (RX) | --  | RXD (Silk) |
-| 25 (TX) | --  | TXD (Silk) |
+| M5Atom  |  --   |  FE-URT-1  |
+| :-----: | :---: | :--------: |
+|   5V    |  --   |     5V     |
+|   GND   |  --   |    GND     |
+| 26 (RX) |  --   | RXD (Silk) |
+| 32 (TX) |  --   | TXD (Silk) |
 
 ### XIAO
 
-|  XIAO   | --  |  FE-URT-1  |
-| :-----: | :-: | :--------: |
-|   5V    | --  |     5V     |
-|   GND   | --  |    GND     |
-| D7 (RX) | --  | RXD (Silk) |
-| D6 (TX) | --  | TXD (Silk) |
+|  XIAO   |  --   |  FE-URT-1  |
+| :-----: | :---: | :--------: |
+|   5V    |  --   |     5V     |
+|   GND   |  --   |    GND     |
+| D7 (RX) |  --   | RXD (Silk) |
+| D6 (TX) |  --   | TXD (Silk) |
