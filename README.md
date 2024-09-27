@@ -60,3 +60,20 @@ FE-URT-1 would have wrong silk annotations about RXD and TXD.
 |   GND   |  --   |    GND     |
 | D7 (RX) |  --   | RXD (Silk) |
 | D6 (TX) |  --   | TXD (Silk) |
+
+---
+
+## w/o FE-URT-1
+
+You can control servos with the circuit using MAX485 in [AKIZUKI document](https://akizukidenshi.com/goodsaffix/feetech_digital_servo_20220729.pdf).
+
+### M5Stack Core1
+
+ESP32's signal level is 3.3V. You need to connect VCC of MAX485 and ESP32's 3.3V pin.
+
+|  Core1   |  --   | MAX485 |
+| :------: | :---: | :----: |
+|   3.3V   |  --   |  VCC   |
+|   GND    |  --   |  GND   |
+| D16 (RX) |  --   |   RO   |
+| D17 (TX) |  --   |   DI   |
